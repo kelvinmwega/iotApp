@@ -24,4 +24,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile files('libs/org.eclipse.paho.client.mqttv3.jar')
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile group: 'com.cloudant', name: 'cloudant-sync-datastore-android', version:'latest.release'
 }
